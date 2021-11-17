@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    font-family: "manrope","sans-serif"; 
+   
+    /* link need to added */
+}
+body{
+    margin: 0px;
+}
+
+.main-container{
+margin: 4% 9% 4% 9%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+
+    
+}
+.grid-container1{
+display: grid;
+width: 45%;
+height: 80%;
+/* 
+grid-template-columns:repeat(1,1fr); */
+/* grid-gap: 20px 20px;} */}
+
+.grid-item{
+
+}
+#clock-pic{
+    background-image:url(./Assets/clock_logo.png);
+    background-size:100% 100% ;
+    width: 21vw;
+    height: 14vh;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+   
+
+}
+
+
+#left-second-container{
+ height: 40vh;
+ width:41vw ;
+ background-color: white;
+ margin-top: 4.26vh;
+ margin-bottom: 5vh;
+ display:grid ;
+ /* align-items: center; */
+ 
+}
+.left-second-container-inner{
+    
+
+  background-color: aqua;
+
+}
+.left-second-container-option{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+   
+   
+}
+#div1{
+    width: 6vw;
+    height: 12vh;
+    display: inline-block;
+    background-image: url(./Assets/wake_up.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+#wakeUpTimeSelector{
+    font-size: 22px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    width: 200px;
+}
+
+
+
+#set-time{
+    width: 22vw;
+    height: 7vh;
+    background-color: white;
+   
+    }
+
+.grid-container2{
+    width: 47.5%;
+    height: 100%px;
+    
+}
+#digital-clock{
+    width: 100%;
+    height: 22vh;
+    background-color: white;
+ 
+    margin-bottom: 7vh;
+}
+#right-bottom-container{
+    background-color: white;
+    
+    width: 39VW;
+    height: 50vh;
+}
