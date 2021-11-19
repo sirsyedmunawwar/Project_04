@@ -104,7 +104,16 @@ grid-template-columns:repeat(1,1fr); */
     
    
 }
-#wakeUpTimeSelector{
+.divborder{
+    width: 5px;
+    border-left: 1.8px solid rgb(128, 128, 128,0.5);
+    height: 25px;
+    position: relative;
+    left: 41px;
+    bottom: -44px;
+    
+}
+.timeSelector{
     font-size: 18px;
     border: 1px solid gray;
     margin-left: 30px;
@@ -157,12 +166,12 @@ grid-template-columns:repeat(1,1fr); */
     position: relative;
     
 }
-#clock11{
+.clock11{
 font-size: 25px;
 
 
 }
-#clock2{
+.clock2{
 width: 80px;
 height: 90px;
 background-image:url(./Assets/timeline.svg) ;
@@ -177,7 +186,7 @@ padding-top: 8px;
 
 }
 #hours{
-    font-size: 40px;
+    
  
     
   
@@ -191,7 +200,7 @@ top: 50px; */
     width: 80px;
 height: 90px;
 background-image:url(./Assets/AM_svg.svg) ;
-font-size: 18px;
+font-size: 40px;
 text-align: center;
 letter-spacing: 0px;
 color:white;
@@ -227,5 +236,21 @@ padding-top: 8px;
     width: 39VW;
     height: 70vh;
     border-radius: 10px;
-    background-image: url(./Assets/lunch_image.svg);
+    background-image: url(./Assets/normal.jpg);
+    /* background-position: 50% 80%; */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:bottom;
+    
+}
+#text-container{
+    font-size: 34px;
+    padding-left: 24px;
+    padding-top: 32px;
+    color: #8E53F0;
+}
+#dynamic-block{
+    width: 41vw;
+    height: 10vh;
+    background-color: yellow;
 }
