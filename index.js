@@ -33,7 +33,7 @@ function Makediv(){
     var container=document.createElement("div");
     container.className="grid-item";
     container.id="dynamic-block";
-    document.getElementById("grid-container1").appendChild(container);
+    document.getElementByClassName("grid-container1").appendChild(container);
     var invalue=document.getElementById("wakeUpTimeSelector");
     var value=invalue.options[invalue.selectedIndex].text;
     document.getElementById("dynamic-block").innerHTML="Wake up time" + value;
